@@ -1,0 +1,105 @@
+.blood_content{
+width: 100%;
+box-sizing: border-box;
+padding: 12px 0;
+margin-top: 5vh;
+
+
+}
+.blood_content h1{
+    text-align: center;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.2em;
+}
+
+.bloodgroups{
+
+
+}
+
+.positivegroup{
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+justify-content: center;
+align-items:center;
+
+
+
+}
+.positivegroup a{
+    cursor: default;
+}
+
+.groputnt{
+    display: grid;
+grid-template-columns: 1fr 1fr;
+
+}
+.plusgroup{
+background-color:  rgba(128, 128, 128, 0.105);
+display: flex;
+
+flex-direction: column;
+justify-content:center;
+height: 17vh;
+align-items: center;
+margin: 50px;
+border-radius: 20px;
+box-shadow:0 6px 4px 0 gray,0 12px 16px 0 gray ;
+
+
+}
+
+
+.plusgroup:hover{
+    transform: translateY(-10px);
+}
+.plusgroup p{
+    color:black;
+
+
+}
+.plusgroup  img{
+    height: 60px;
+    width: 40px;
+    
+}
+
+.negativegroup{
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+justify-content: center;
+align-items:center;
+}
+.negativegroup a {
+    cursor: default;
+}
+@media(max-width:991px){
+    .positivegroup{
+       
+    grid-template-columns: 1fr 1fr ;
+    
+    }
+    
+.negativegroup{
+   
+grid-template-columns: 1fr 1fr ;
+
+}
+.plusgroup{
+    background-color:  rgba(128, 128, 128, 0.105);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 13vh;
+    width: 30vw;
+    align-items: center;
+    margin: 30px;
+    border-radius: 20px;
+    
+    
+    }
+
+
+}

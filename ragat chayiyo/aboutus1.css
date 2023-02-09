@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.about_container{
+    
+    background: #f5f5f5;
+}
+.about_header{
+    padding-top: 60px;
+    color: #444;
+    font-size: 20px;
+    height: 10vh;
+    text-align: center;
+    line-height: 50px;
+}
+.sb-container{
+    width: 90%;
+    margin-left:5% ;
+    padding-left: 48px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    
+}
+
+.name{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 850;
+    letter-spacing: 3px;
+    word-spacing: 1px;
+    text-transform: uppercase;
+    margin: 10px 0 20px 0;
+}
+.social-links{
+    text-align: center;
+}
+ .fb{
+    color: #3b5998 ;
+ }
+.insta{
+  color: #dd2a7b;
+}
+ .role{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+   color: gold;
+ }
+
+.about{
+    font-size: 18px;
+    color: black;
+
+}
+
+
+img{
+    border-radius: 50%;
+}
+@media(max-width:900px){
+    .sb-container{
+       
+        padding-left: 0px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        
+    }
+    .about_header{
+        padding-top: 30px;
+        color: #444;
+        font-size: 15px;
+        height: 6vh;
+        text-align: center;
+        line-height: 30px;
+    }
+    .role{
+        font-size: 20px;
+        font-weight: 400;
+   
+     }
+     .about{
+        font-size: 18px;
+        color: black;
+    
+    }
+    .name{
+        font-size: 1.5em;
+        font-weight: 5000;
+        letter-spacing: 2px;
+        word-spacing: 1px;
+        text-transform: uppercase;
+        margin: 20px 0 30px 0;
+    }
+
+}
+You sent
+.social-links{
+text-align: center;
+}
